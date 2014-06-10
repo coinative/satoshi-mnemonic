@@ -4,7 +4,7 @@ var hex = function (hex) { return new Buffer(hex, 'hex'); };
 
 var vectors = require('./fixtures/vectors.json').english;
 
-describe('core-mnemonic', function () {
+describe('satoshi-mnemonic', function () {
   describe('encode', function () {
     it('entropy must be at least 4 bytes', function () {
       expect(function () { mnemonic.encode(new Buffer(1)); }).to.throw();

@@ -1,4 +1,4 @@
-var sjcl = require('core-sjcl');
+var sjcl = require('satoshi-sjcl');
 
 var toBits = sjcl.codec.bytes.toBits;
 var toBytes = sjcl.codec.bytes.fromBits;
