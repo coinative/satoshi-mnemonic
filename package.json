@@ -1,6 +1,6 @@
 {
   "name": "satoshi-mnemonic",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Bitcoin mnemonic implementation (BIP39) for NodeJS and browsers",
   "main": "lib/index.js",
   "browser": {
