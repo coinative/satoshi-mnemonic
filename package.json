@@ -7,6 +7,14 @@
     "./lib/pbkdf2.js": "./lib-browser/pbkdf2.js"
   },
   "author": "Ben Shepheard <ben@coinative.com>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/coinative/satoshi-mnemonic.git"
+  },
+  "bugs": {
+    "url": "https://github.com/coinative/satoshi-mnemonic/issues"
+  },
+  "homepage": "https://github.com/coinative/satoshi-mnemonic",
   "license": "MIT",
   "scripts": {
     "test": "./node_modules/.bin/mocha -r ./test/support/env -R dot ./test && ./node_modules/.bin/karma start",
