@@ -26,8 +26,7 @@
     "watchify": "^0.10.2"
   },
   "dependencies": {
-    "buffer": "2.3.0",
-    "satoshi-hash": "0.0.1",
+    "satoshi-hash": "0.0.4",
     "satoshi-sjcl": "0.0.2"
   }
 }
